@@ -1,4 +1,4 @@
-package CustomisedException;
+package customisedException;
 
 public class AgeExceptionExample {
 	
