@@ -13,6 +13,7 @@ public class Map {
 		hm.put(12, "rahul");
 		hm.put(85, "neha");
 		hm.put(null, null);
+		hm.put(null, null);
 		System.out.println(hm);
 
 		LinkedHashMap<Integer,String>lm=new LinkedHashMap <>();
@@ -23,7 +24,8 @@ public class Map {
 		lm.put(70, "ramesh");
 		lm.put(12, "rahul");
 		lm.put(85, "neha");
-		hm.put(null, null);
+		lm.put(null, null);
+		lm.put(null, null);
 		System.out.println(lm);
 		
 		
@@ -34,7 +36,8 @@ public class Map {
 		tm.put(70, "ramesh");
 		tm.put(12, "rahul");
 		tm.put(85, "neha");
-		hm.put(1, null);
+		tm.put(1, null);
+		tm.put(12, null);
 		System.out.println(tm);
 		
 

@@ -21,8 +21,11 @@ public class MapsExample {
 		hm.put(102, "jay");
 		hm.put(101, "avanti");
 		hm.put(8, "Avi");
+		hm.put(null,null);
+		hm.put(null,null);
+		hm.put(5,null);
 		System.out.println(hm);
-		
+		System.out.println();
 		lhm.put(10, "ram");
 		lhm.put(12, "sachin");
 		lhm.put(11, "gaurav");
@@ -32,10 +35,14 @@ public class MapsExample {
 		lhm.put(98, "Avi");
 		lhm.put(102, "jay");
 		lhm.put(101, "avanti");
-		hm.put(8, "Avi");
+		lhm.put(8, "Avi");
+		lhm.put(null,null);
+		lhm.put(null,null);
+		lhm.put(5,null);
 		System.out.println(lhm);
-
-		
+		System.out.println();
+		tm.put(5,null);
+		//tm.put(null,null);
 		tm.put(10, "ram");
 		tm.put(12, "sachin");
 		tm.put(11, "gaurav");
@@ -45,7 +52,7 @@ public class MapsExample {
 		tm.put(98, "Avi");
 		tm.put(102, "jay");
 		tm.put(101, "avanti");
-		hm.put(8, "Avi");
+		tm.put(8, "Avi");
 		System.out.println(tm);
 	}
 

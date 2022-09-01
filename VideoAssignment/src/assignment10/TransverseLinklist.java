@@ -22,7 +22,7 @@ public class TransverseLinklist {
 		{
 			System.out.print(itr.next()+"   ");
 		}
-
+		 
 	}
 
 }

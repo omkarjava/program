@@ -9,8 +9,6 @@ import arrayListContainment.Employee;
 
 public class Theater {
 	
-	
-	
 	int id;
 	String name;
 	ArrayList<Movie>mo;

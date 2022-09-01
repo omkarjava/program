@@ -27,7 +27,7 @@ public class EmployeeHashmap {
 				System.out.println(ent.getKey()+" "+ent.getValue());
 			}
 		}
-		
+		System.out.println();
 		//if we dont override public toString method then print like that
 		
 		for(Map.Entry<Integer, Employee> ent:sa.entrySet())

@@ -77,7 +77,7 @@ public class Sets {
 		al.add(null);
 		System.out.println(al);
 		LinkedList<Integer>ll=new LinkedList<>();
-		al.add(null);
+		ll.add(null);
 		ll.add(72);
 		ll.add(2);
 		ll.add(20);
