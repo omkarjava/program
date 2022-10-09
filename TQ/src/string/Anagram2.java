@@ -54,7 +54,7 @@ package string;
         	
         	  if  (c==string1.length)
         	   {
-        		System.out.println(" Anogram Strings ");
+        		System.out.println(" Anagram Strings ");
         	   }
         	 else
         		System.out.println(" Not Anogram Strings ");

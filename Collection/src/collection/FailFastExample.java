@@ -28,24 +28,24 @@ public class FailFastExample {
 //			}
 //			System.out.println(al);
 			//fail fast iterator IT GIVES concurrentmodification Exception
-			for( Integer i:al)
-		
-			{
-				if(i==5)
-				al.add(20);
-			}
-			System.out.println(al);
+//			for( Integer i:al)
+//		
+//			{
+//				if(i==5)
+//				al.add(20);
+//			}
+//			System.out.println(al);
 			
 			
 			//
-//			 ListIterator<Integer> alt=al.listIterator();
-//			 
-//			while(alt.hasNext())
-//			{
-//				if(alt.next()==2)
-//				alt.remove();  //listIterator
-//			}
-//			System.out.println(al);
+			 ListIterator<Integer> alt=al.listIterator();
+			 
+			while(alt.hasNext())
+			{
+				if(alt.next()==2)
+				alt.remove();  //listIterator
+			}
+			System.out.println(al);
 			
 	}
 

@@ -22,6 +22,7 @@ public class UpperCase {
 		String a="124";
 		Integer a1=Integer.valueOf(a);
 		System.out.println(a1);
+		
 	}
 
 }

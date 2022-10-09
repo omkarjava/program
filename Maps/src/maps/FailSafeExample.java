@@ -20,6 +20,7 @@ public class FailSafeExample {
         hm.put(3, "raj");
         hm.put(4, "ramesh"); 
         hm.put(2, "rakesh");
+        hm.put(55, "knk");
         
         System.out.println(hm);
 		Enumeration e=hm.keys();

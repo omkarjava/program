@@ -12,9 +12,6 @@
 		al1.add(25);
 		al1.add(45);
      
-     
-     
-     
 		al.add(15);
 		al.add(25);
 		al.add(45);

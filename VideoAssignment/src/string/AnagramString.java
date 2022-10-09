@@ -46,6 +46,12 @@ import java.util.Scanner;
 		AnagramString b=new AnagramString();
 		
 		b.AnagramString(s, a);
+		if(s.equalsIgnoreCase(a))
+		{
+			System.out.println("Anagram");
+		}
+		else
+			System.out.println("Not Anagram");
 
 	}
 

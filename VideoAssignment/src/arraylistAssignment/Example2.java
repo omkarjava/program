@@ -23,7 +23,7 @@ public class Example2 {
 				s++;
 				
 			}
-			if(s>7)
+			if(s>6)
 			{
 			 al.remove(i);
 			}

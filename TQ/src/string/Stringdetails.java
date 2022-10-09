@@ -1,8 +1,8 @@
-package string;
++package string;
 
 import java.util.Arrays;
 
-public class Stringjava {
+public class Stringdetails {
 
 	public static void main(String[] args) {
      

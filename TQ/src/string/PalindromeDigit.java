@@ -45,6 +45,9 @@ public class PalindromeDigit {
 //	     System.out.println("not palindrome");  
 		int a=1125211;
 		String s=String.valueOf(a);
+		int e=Integer.valueOf(s);
+		System.out.println(e);
+
 		String m="";
 		System.out.println(s);
          int g=s.length();
@@ -55,7 +58,7 @@ public class PalindromeDigit {
          System.out.println(m);
 		
 	      
-	      
+	    
 	      
 	      
 	}

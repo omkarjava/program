@@ -8,8 +8,8 @@ public class String14datacasting {
       System.out.println(a);
       
       
-//      int b=(int)'5';
-//      System.out.println(b);
+      int b=(int)'d';
+      System.out.println(b);
 	}
 
 }

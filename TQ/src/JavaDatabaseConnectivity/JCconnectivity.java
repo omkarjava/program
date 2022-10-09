@@ -1,4 +1,4 @@
-ppackage JavaDatabaseConnectivity;
+package JavaDatabaseConnectivity;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -50,8 +50,8 @@ public class JCconnectivity {
 		System.out.println("Country name id");
 		String na=sc.next();
 		int i=sc.nextInt();
-		c=DatabaseConnection.getconnection();
 		
+		c=DatabaseConnection.getconnection("student");
 		JCconnectivity jc=new JCconnectivity ();
 		
 		jc.updateCountryData(na,i);
